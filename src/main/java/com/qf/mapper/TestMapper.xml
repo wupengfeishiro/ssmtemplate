@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.qf.mapper.TestMapper">
+
+    <select id="findList" resultType="com.qf.entity.Account">
+        SELECT
+          id as "id",
+          name as "name",
+          money as "money"
+        from account
+    </select>
+</mapper>

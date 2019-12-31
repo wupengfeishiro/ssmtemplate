@@ -4,6 +4,7 @@ public class Account {
     private Integer id;
     private String name;
     private Double money;
+    private String personsList;
 
     public Integer getId() {
         return id;
@@ -27,5 +28,13 @@ public class Account {
 
     public void setMoney(Double money) {
         this.money = money;
+    }
+
+    public String getPersonsList() {
+        return personsList;
+    }
+
+    public void setPersonsList(String personsList) {
+        this.personsList = personsList;
     }
 }
